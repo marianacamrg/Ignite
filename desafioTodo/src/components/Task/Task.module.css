@@ -1,0 +1,30 @@
+.commentContent {
+  background: var(--gray-400);
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  gap: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.commentContent button {
+  background: transparent;
+  border: 0;
+  color: var(--white-letra);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.commentContent button:hover {
+  color: var(--red-500);
+}
+
+.commentContent p {
+  width: 39.5rem;
+  color: var(--white-200);
+  font-size: 0.875rem;
+}
